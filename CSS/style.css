@@ -1,0 +1,45 @@
+html {
+
+	height: 100%;
+}
+
+body {
+    height: 100%;
+    margin:0;
+	padding:20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#top-banner{
+
+	height: 50px;	
+}
+
+#econ {
+
+	width: 35px;
+	height: 35px;
+	float:right;
+}
+
+.chartContainer {
+
+	position: relative;
+	display: block;
+	float:left;
+	width:80%;
+	height: 300px;
+	min-height:250px;
+	padding: 5px 2%;
+	margin:0 auto 0 auto;
+	background-color: transparent;	
+	border: solid 4px #FFF;
+	border-radius: 6px;
+}
+
+.hovering-txtarea {
+
+	position: absolute;
+	z-index: 10;
+}
